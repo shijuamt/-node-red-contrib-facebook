@@ -1,4 +1,4 @@
-node-red-contrib-hello-world
+node-red-contrib-facebook
 ========================
 A <a href="http://nodered.org" target="_new">Node-RED</a> node to send Post on Facebook.
 
