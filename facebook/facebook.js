@@ -1,12 +1,12 @@
 module.exports = function (RED) {
     "use strict";
 	var graph = require('fbgraph');
-	graph.setAccessToken("EAACEdEose0cBABKrvyH5iCXWa5AWuy1eXCtoMdFW6M6yL4YWqncr0n0pC52wFZAM43sfTwNcMjUedHlp1mosUEZC58pROC4DS4sfkp6vsAqOISKx1ZBRqtDMcCb6mtV0BF1aqcxQOQZBHoqZAJEBlWBIv9UGNpsv80Cvxq4Cv8AEWjUu9hVQZB");
+	graph.setAccessToken("");
 	
 	// get authorization url 
     var authUrl = graph.getOauthUrl({
-        "client_id":    "1616871815308713"
-      , "redirect_uri":  "579b3ccd00771ea9eb88b719c6167788"
+        "client_id":    ""
+      , "redirect_uri":  ""
     });
  
     // shows dialog 
