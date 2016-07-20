@@ -1,12 +1,15 @@
 module.exports = function (RED) {
     "use strict";
-	var graph = require('fbgraph');
-	graph.setAccessToken("");
+	var graph = require('fbgraph'),
+	    fs = require("fs"),
+        ursa = require("ursa"),
+        url = require("url");
+	    graph.setAccessToken("");
 	
 	// get authorization url 
     var authUrl = graph.getOauthUrl({
-        "client_id":    ""
-      , "redirect_uri":  ""
+        "client_id":    "",
+		"redirect_uri":  ""
     });
  
     // shows dialog 
